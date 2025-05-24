@@ -26,21 +26,6 @@
       font-size: 1.2rem;
       color: #ccc;
     }
-    nav {
-      background-color: #1a1a1a;
-      display: flex;
-      justify-content: center;
-      padding: 12px;
-    }
-    nav a {
-      color: #feda00;
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    nav a:hover {
-      color: #fff;
-    }
     .hero {
       text-align: center;
       padding: 50px 20px;
@@ -53,46 +38,30 @@
       font-size: 1.1rem;
       color: #ccc;
     }
-    .links {
-      margin-top: 30px;
-    }
-    .links a {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      background-color: #feda00;
-      color: #000;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .links a:hover {
-      background-color: #fff;
-      color: #000;
-    }
     .club-section {
       text-align: center;
-      padding: 40px 20px;
+      padding: 60px 20px;
       border-bottom: 1px solid #333;
     }
     .club-logo {
-      width: 80px;
+      width: 90px;
       height: auto;
-      float: left;
-      margin-left: 20px;
+      margin-bottom: 10px;
     }
     .shirt-img {
-      max-width: 300px;
+      max-width: 350px;
       width: 90%;
       border-radius: 15px;
       margin-top: 20px;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .shirt-img:hover {
+      transform: scale(1.05);
     }
     .club-title {
-      clear: both;
-      font-size: 2rem;
-      margin-top: 10px;
+      font-size: 2.2rem;
+      margin-top: 15px;
       color: #feda00;
     }
     footer {
@@ -110,37 +79,30 @@
     <p>QUALITY IS OUR SECOND NAME — Shipping all over the world.</p>
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Players</a>
-    <a href="#">Fans</a>
-    <a href="https://www.instagram.com/jerzynho_store" target="_blank">Instagram</a>
-  </nav>
-
   <section class="hero">
-    <h2>Welcome to Jerzynho</h2>
-    <p>Your #1 Source for Iconic Football Shirts</p>
-    <div class="links">
-      <a href="#real">Real Madrid</a>
-      <a href="#barca">Barcelona</a>
-    </div>
+    <h2>CLUB SHIRTS</h2>
+    <p>Browse the latest drops from your favourite clubs.</p>
   </section>
 
   <section id="real" class="club-section">
-    <img class="club-logo" src="/mnt/data/A_webpage_screenshot_showcases_Jerzynho,_an_online.png" alt="Real Madrid Logo">
-    <h2 class="club-title">Real Madrid</h2>
-    <a href="https://paypal.com" target="_blank">
-      <img class="shirt-img" src="/mnt/data/A_webpage_screenshot_showcases_Jerzynho,_an_online.png" alt="Real Madrid Shirt">
-    </a>
-  </section>
+  <img class="club-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png" alt="Real Madrid Logo">
+  <h2 class="club-title">Real Madrid</h2>
+</section>
 
   <section id="barca" class="club-section">
-    <img class="club-logo" src="/mnt/data/A_screenshot_of_Jerzynho,_an_online_football_shirt.png" alt="Barcelona Logo">
-    <h2 class="club-title">FC Barcelona</h2>
-    <a href="https://paypal.com" target="_blank">
-      <img class="shirt-img" src="/mnt/data/A_screenshot_of_Jerzynho,_an_online_football_shirt.png" alt="Barcelona Shirt">
-    </a>
-  </section>
+  <img class="club-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/240px-FC_Barcelona_%28crest%29.svg.png" alt="Barcelona Logo">
+  <h2 class="club-title">FC Barcelona</h2>
+</section>
+
+  <section id="juventus" class="club-section">
+  <img class="club-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/800px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png" alt="Juventus Logo">
+  <h2 class="club-title">Juventus</h2>
+</section>
+
+  <section id="arsenal" class="club-section">
+  <img class="club-logo" style="display:block; margin:auto;" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/800px-Arsenal_FC.svg.png" alt="Arsenal Logo">
+  <h2 class="club-title">Arsenal</h2>
+</section>
 
   <footer>
     <p>&copy; 2025 Jerzynho Store — Quality is our second name.</p>
